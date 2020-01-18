@@ -1,9 +1,16 @@
-![](https://img.shields.io/badge/Java-1.8-green.svg)
-[![docker pull](https://img.shields.io/badge/docker-pull-green.svg)](https://hub.docker.com/r/yangzhenkun/krpc/)
-[![Build Status](https://www.travis-ci.org/yangzhenkun/krpc.svg?branch=master)](https://www.travis-ci.org/yangzhenkun/krpc)
+# 博客
+http://www.laomn.com
+# 打赏
 
+![image](https://github.com/henanren/majiang/blob/master/jpg/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200114171743.png?raw=true)
 
-![Logo](https://raw.githubusercontent.com/yangzhenkun/krpc/master/logo.png)
+# 关注公众号
+
+ ![image](https://github.com/henanren/majiang/blob/master/jpg/gongzhonghao.jpg?raw=true)
+ 
+ # 加入交流群
+ 
+ ![image](https://github.com/henanren/majiang/blob/master/jpg/jiaoliuqun.png?raw=true)
 
 ### 如何使用
 
@@ -64,18 +71,14 @@ server.xml文件为服务的配置文件
 **启动** 
 启动在server/bin里面，执行
 ```
-    java -jar com.krpc.server-0.0.1.jar 服务名
+    java -jar server.jar 服务名
 ```
 命令，查看日志，如果看到  启动成功，监听端口***  的日志，恭喜你，服务端启动成功。
 
-#### docker 启动服务
-
-https://github.com/yangzhenkun/krpc/tree/master/docker
-
-krpc提供了服务端镜像，所以每个服务都可以在krpc提供的dockerfile模版中进行修改构建自己的服务镜像
+ 
 
 #### 2.客户端
-需要引入KRPC客户端，由于项目还没有发布到maven中央仓库，用户可以将client包发布到自己本地，或者直接将该com.krpc.client-0.0.1.jar包加入项目。
+需要引入KRPC客户端，由于项目还没有发布到maven中央仓库，用户可以将client包发布到自己本地，或者直接将该client.jar包加入项目。
 
 使用需要先调用KRPC.init("client配置文件")进行初始化
 配置在client/client.xml中
@@ -112,12 +115,9 @@ sercie的name的值必须
 
 #### 3.要注意的事情
 
-krpc.rar中的krpc相关包均为上面源码中生成
+ 
 
-配置文件模板：https://github.com/yangzhenkun/krpc/tree/master/demo/config_file_template
+配置文件模板：demo/config_file_template
 
 
-**这个RPC框架是我自己造轮子学习的，并没有真实在生产环境中使用，所以看到这个项目，希望大家可以交流学习技术，提交pr,issue，完善其性能及功能,争取让它可以用于生产环境**
-
-我个人博客中关于RPC及这个KRPC的源码原理解析会在这个专栏中写道
-https://blog.csdn.net/column/details/22012.html
+ 
