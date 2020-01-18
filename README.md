@@ -14,7 +14,7 @@ http://www.laomn.com
 
 ### 如何使用
 
-编译好的服务端环境 [release](https://github.com/yangzhenkun/krpc/releases/tag/1.0)
+编译好的服务端环境
 
 #### 1.服务端
 解压后server文件夹中就是服务端环境，如demo所示，server/service中有一个user文件，就是我们部署的user服务，下面有两个必须的文件夹conf（配置文件）
